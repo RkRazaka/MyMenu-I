@@ -6,10 +6,10 @@ public class Order {
      */
     public void displayAvailableMenu() {
         System.out.println("Choix menu");
-        System.out.println("1 - poulet");
-        System.out.println("2 - boeuf");
-        System.out.println("3 - végétarien");
-        System.out.println("Que souhaitez-vous comme menu ?");
+        System.out.println("1 - Boeuf");
+        System.out.println("2 - Poulet");
+        System.out.println("3 - Végétarien");
+        System.out.println("Que Souhaitez-Vous Comme Menu ?");
     }
     /**
      * Display a selected menu.
@@ -18,13 +18,13 @@ public class Order {
     public void displaySelectedMenu(int nbMenu) {
         switch (nbMenu) {
             case 1:
-                System.out.println("Vous avez choisi comme menu : poulet");
+                System.out.println("Vous avez choisi comme menu : Boeuf");
                 break;
             case 2:
-                System.out.println("Vous avez choisi comme menu : boeuf");
+                System.out.println("Vous avez choisi comme menu : Poulet");
                 break;
             case 3:
-                System.out.println("Vous avez choisi comme menu : végétarien");
+                System.out.println("Vous avez choisi comme menu : Végétarien");
                 break;
             default:
                 System.out.println("Vous n'avez pas choisi de menu parmi les choix proposés");
